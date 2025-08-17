@@ -1,20 +1,21 @@
-"""
-Setup configuration for text-to-shots package.
-"""
+"""Setup configuration for text_to_shots package."""
+
 from setuptools import setup, find_packages
+
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+
 setup(
-    name="text-to-shots",
+    name="text_to_shots",
     version="1.0.0",
     author="Your Name",
     author_email="your.email@example.com",
     description="AI-powered package to convert text stories into film scenes and shots",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/text-to-shots",
+    url="https://github.com/yourusername/text_to_shots",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -40,3 +41,4 @@ setup(
         ],
     },
 )
+
